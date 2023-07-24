@@ -32,7 +32,7 @@ public class IpmaLookupService {
 //        } catch (JsonProcessingException e) {
 //            throw new RuntimeException(e);
 //        }
-        delay(4000L);
+        delay(3000L);
         return CompletableFuture.completedFuture(results);
     }
 
