@@ -1,4 +1,4 @@
-package com.example.Assignmentbackend;
+package com.example.Assignmentbackend.Models;
 
 
 import lombok.Builder;

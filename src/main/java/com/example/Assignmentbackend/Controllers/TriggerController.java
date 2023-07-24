@@ -1,4 +1,4 @@
-package com.example.Assignmentbackend.Controller;
+package com.example.Assignmentbackend.Controllers;
 
 import com.example.Assignmentbackend.Services.IpmaLookupService;
 import com.example.Assignmentbackend.Services.SseService;
