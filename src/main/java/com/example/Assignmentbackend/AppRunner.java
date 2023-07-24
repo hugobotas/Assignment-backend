@@ -1,7 +1,6 @@
 package com.example.Assignmentbackend;
 
 import lombok.extern.slf4j.Slf4j;
-import netscape.javascript.JSObject;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -20,7 +19,7 @@ public class AppRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         long start = System.currentTimeMillis();
-        CompletableFuture<String> results = ipmaLookupService.getLisbonData();
+        CompletableFuture<String> results = ipmaLookupService.getAllStationsData();
         log.info("Elapsed time: " + (System.currentTimeMillis() - start));
         log.info("--> " + results.get());
 
